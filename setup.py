@@ -8,11 +8,14 @@ __versionstr__ = '.'.join(map(str, VERSION))
 
 
 install_requires = [
-    'bungiesearch>=1.2.2',
+    'bungiesearch==1.2.3',
     'celery==3.1.18',
     'Django>=1.4.3',
 ]
 
+dependency_links = [
+    'https://github.com/BetterWorks/bungiesearch/archive/v1.2.3.bw.zip'
+]
 
 with open('README.rst') as f:
     readme = f.read()
