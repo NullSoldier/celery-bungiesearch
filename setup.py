@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 
-VERSION = (1, 2, 0)
+VERSION = (1, 2, 0, 'beta')
 __version__ = VERSION
 __versionstr__ = '.'.join(map(str, VERSION))
 
